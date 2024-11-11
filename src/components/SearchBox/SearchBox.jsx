@@ -12,6 +12,7 @@ export default function Filter() {
       <label className={css.label}>
         <span className={css.text}>Find contact by name</span>
         <input
+          className={css.input}
           type="text"
           value={value}
           onChange={(e) => dispatch(changeFilter(e.target.value))}

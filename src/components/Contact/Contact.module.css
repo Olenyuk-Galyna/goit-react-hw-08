@@ -2,20 +2,23 @@
   display: flex;
   font-weight: 600;
   align-items: center;
-  gap: 8px;
 }
 .tumb {
   display: flex;
   border-radius: 8px;
   border: 1px solid gray;
-  padding: 8px 8px;
-  margin-bottom: 8px;
   justify-content: space-around;
   align-items: center;
+  width: 300px;
+  height: 80px;
+  margin: 0 auto;
 }
 .btn {
   display: flex;
   width: 86px;
   height: 40px;
   border: 1px solid gray;
+}
+p {
+  margin: 5px 10px;
 }

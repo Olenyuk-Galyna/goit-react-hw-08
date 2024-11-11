@@ -31,7 +31,7 @@ const ContactForm = () => {
             className={css.field}
             type="text"
             name="name"
-            placeholder="Galyna Olenyuk"
+            placeholder="Galyna Galaibida"
           />
           <ErrorMessage
             className={css.errorMessage}
